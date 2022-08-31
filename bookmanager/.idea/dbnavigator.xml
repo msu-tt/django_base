@@ -39,8 +39,13 @@
     <connection id="66b27df2-c725-4293-ac3f-cdadd9514124" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="66b27df2-c725-4293-ac3f-cdadd9514124" dataset="main.auth_user" active-filter-id="9d630339-1a82-42e5-9f9e-37d2cad90fb3">
+    <filter-actions connection-id="66b27df2-c725-4293-ac3f-cdadd9514124" dataset="main.auth_user" active-filter-id="">
       <filter id="9d630339-1a82-42e5-9f9e-37d2cad90fb3" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="66b27df2-c725-4293-ac3f-cdadd9514124" dataset="main.book0_bookinfo" active-filter-id="">
+      <filter id="b61d4b18-3726-4902-b1a7-c4d19b11a929" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
