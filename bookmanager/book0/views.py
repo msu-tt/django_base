@@ -7,4 +7,5 @@ from django.http import HttpResponse
 
 def index(request):
 
-    return HttpResponse('ok')
+    # return HttpResponse('ok')
+    return render(request,'book0/index.html')
