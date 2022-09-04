@@ -8,4 +8,7 @@ from django.http import HttpResponse
 def index(request):
 
     # return HttpResponse('ok')
-    return render(request,'book0/index.html')
+    context = {
+        'name':'9.9ri'
+    }
+    return render(request,'book0/index.html',context=context)
